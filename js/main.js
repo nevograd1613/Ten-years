@@ -15,6 +15,10 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 60,
   centeredSlides: true,
    breakpoints: {
+      360: {
+         slidesPerView: 1,
+         spaceBetween: 0,
+      },
       1200: {
          slidesPerView: 1,
          spaceBetween: 0,
